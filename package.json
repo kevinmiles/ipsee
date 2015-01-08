@@ -4,12 +4,12 @@
   "description": "inter-process communication for node",
   "main": "index.js",
   "dependencies": {
-    "coalescent": "^0.5.0-alpha.4",
+    "coalescent": "^0.5.0-alpha.6",
     "glob": "^4.3.2",
     "merge": "^1.2.0"
   },
   "devDependencies": {
-    "should": "^4.4.2"
+    "chai": "^1.10.0"
   },
   "scripts": {
     "test": "mocha test/**"
