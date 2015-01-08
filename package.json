@@ -1,0 +1,31 @@
+{
+  "name": "ipsee",
+  "version": "0.0.0",
+  "description": "inter-process communication for node",
+  "main": "index.js",
+  "dependencies": {
+    "coalescent": "^0.5.0-alpha.4",
+    "glob": "^4.3.2",
+    "merge": "^1.2.0"
+  },
+  "devDependencies": {
+    "should": "^4.4.2"
+  },
+  "scripts": {
+    "test": "mocha test/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gordonwritescode/ipsee.git"
+  },
+  "keywords": [
+    "ipc",
+    "pubsub"
+  ],
+  "author": "Gordon Hall <gordon@gordonwritescode.com>",
+  "license": "LGPLv3",
+  "bugs": {
+    "url": "https://github.com/gordonwritescode/ipsee/issues"
+  },
+  "homepage": "https://github.com/gordonwritescode/ipsee"
+}
