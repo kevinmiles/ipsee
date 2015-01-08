@@ -1,6 +1,6 @@
 {
   "name": "ipsee",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "inter-process communication for node",
   "main": "index.js",
   "dependencies": {
