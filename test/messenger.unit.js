@@ -99,7 +99,9 @@ describe('Messenger', function() {
     });
 
     it('should get peerDisconnected event on peer destroy', function(done) {
-      ipc4.channel.once('peerDisconnected', done);
+      ipc4.channel.once('peerDisconnected', function() {
+        done();
+      });
       ipsee('ipsee_test', { uid: 5 }).on('ready', function(data) {
         this.close();
       }).subscribe(4);

@@ -1,10 +1,10 @@
 {
   "name": "ipsee",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "inter-process communication for node",
   "main": "index.js",
   "dependencies": {
-    "coalescent": "^0.5.0-alpha.6",
+    "coalescent": "0.6.0",
     "glob": "^4.3.2",
     "merge": "^1.2.0"
   },
